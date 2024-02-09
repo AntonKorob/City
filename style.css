@@ -1,0 +1,64 @@
+*{
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dark{
+        background-color: #403338 ;
+        color: #708090;
+    }
+    
+#bg_color {
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, #FFA07A 0%, #AFEEEE 25%, #E0FFFF 51%, #98FB98 100%);
+  -webkit-animation: AnimateBG 15s ease infinite;
+          animation: AnimateBG 15s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.col ms-2{
+    z-index: -1
+}
+.scroll {
+  height: 1300px; 
+  overflow-y: scroll; 
+}
+.b_color{
+    color: yellow;
+}
+
+table, th, td {
+    border:1px solid blue;
+    color: blue;
+    margin: 4px;
+    padding: 3px;
+    text-align: center;
+}
+#text_fs{
+    font-size: 18px;
+}
+/* стиль темная тема, анимация, цвет текста */
